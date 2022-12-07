@@ -1,0 +1,12 @@
+{
+    "SECRET_KEY": "django-insecure-g%4(q-@elk7l8pic$8$_^k_#fjhex895-%3djz3()9sghj+=7p",
+    "DEBUG": "True",
+    "SERVER_IP": "*",
+    "DB_ENGINE": "django.db.backends.mysql",
+    "DB_NAME": "ocrdb",
+    "DB_USER": "root",
+    "DB_PASSWORD": "Sept@2022",
+    "DB_HOST": "localhost",
+    "DB_PORT": "3306"
+    
+}
