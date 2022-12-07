@@ -1,0 +1,37 @@
+To Check if Python is installed
+1. open CMD
+2. type Python
+3. if installed, you will enter Python interactive shell and output will be somoething like-
+'''
+PS C:\Users\VIKRAM CHOUDHARY> python
+Python 3.7.3 (default, Mar 27 2019, 17:13:21) [MSC v.1915 64 bit (AMD64)] :: Anaconda, Inc. on win32
+
+Type "help", "copyright", "credits" or "license" for more information.
+>>>  
+'''
+
+To install Python
+1. visit https://www.python.org/downloads/
+2. scroll up till you see the table of release versions
+3. Click on download 'Python 3.7.5'
+4. scroll to the bottom of the page 
+5. for windows : click 'Windows x86-64 executable installer'
+   for mac : macOS 64-bit installer
+6. Do not run the file(there are few instructions).
+
+
+commands
+1. pip install virtualenv
+2. python -m virtualenv OCREnv
+3. .\OCREnv\Scripts\activate
+4. pip install -r requirements.txt
+commands for Django(you have to be in the project directory)
+1. python manage.py makemigrations
+2. python manage.py migrate
+3. python manage.py runserver
+
+commands for poppler
+1. cut paste the folder into 'C:/Program files/'
+2. add the bin path to environment variable
+3. extra modules to import - import fitz
+                           - import frontend
